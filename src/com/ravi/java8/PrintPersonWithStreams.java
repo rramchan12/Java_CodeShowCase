@@ -7,7 +7,7 @@ import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 //Used on collection in conjuction with Lambdas
-public class Streams {
+public class PrintPersonWithStreams {
 	
 	public static void main(String[] args) {
 		List<Person> personArray= Arrays.asList(new Person("John",21), new Person("Sheeba",40), new Person("Michael",56),new Person("John",21));
@@ -43,6 +43,9 @@ public class Streams {
 		//Example of another stream IntStream
 	int result =  IntStream.range(1, 4).map(i -> i*2).sum();
 	System.out.print(result);
+	
+	
+	
 	 
 		
 		
