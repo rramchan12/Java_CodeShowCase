@@ -3,6 +3,7 @@ package com.ravi.java8;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.LongStream;
 import java.util.stream.Stream;
 
 public class StreamBasics {
@@ -45,6 +46,10 @@ public class StreamBasics {
 		
 		//5. From File 
 		//Stream<String> lines = Files.lines(Paths.get("/tmp/data"), Charset.defaultCharset());
+		
+		
+		//Few Examples
+		//LongStream.rangeClosed(2,100).filter(PrimeNumbers::isPrime).count();
 	}
 
 }
