@@ -1,7 +1,7 @@
 package com.ravi.codeproblems;
 
 /*Given a string of brackets, the task is to find an index k which decides the number of opening brackets is equal to the number of closing brackets.
-String must be consists of only opening and closing brackets i.e. ‘(‘ and ‘)’.
+String must be consists of only opening and closing brackets i.e. ï¿½(ï¿½ and ï¿½)ï¿½.
 The 
 */
 public class FindEqualPointInBrackets {
